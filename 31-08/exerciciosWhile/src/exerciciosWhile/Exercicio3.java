@@ -6,13 +6,10 @@ public class Exercicio3 {
 		int n = 0;
 		
 		while(i<101) {
-		
-			System.out.println(n);
 			
 		i =  i + 1;
 		n = i + n;
-		
-		
 	}
+		System.out.println(n);
   }
 }
