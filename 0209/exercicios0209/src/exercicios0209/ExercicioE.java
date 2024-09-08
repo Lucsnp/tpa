@@ -11,20 +11,12 @@ public class ExercicioE {
 			i = ler.nextInt();
 		
 		while(i >0) {
-		
-		
+
 		System.out.println(n+"° termo: "+ b);
-			
-		
-	
-		                                             
+		                                   
 		c = a + b  ; 
 		a = b     ; 
 		b = c     ; 
-		
-		
-		
-		
 		
 		n++;
 		i--;
