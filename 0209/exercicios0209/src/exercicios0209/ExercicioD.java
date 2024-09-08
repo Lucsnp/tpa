@@ -5,7 +5,7 @@ public class ExercicioD {
 		
 		Scanner ler = new Scanner(System.in);
 			
-			int n = 0, e = 0,i=0, eI;
+			int n = 0, e = 0, i=0, eI;
 		
 		System.out.println("Digite o número da base:");
 				n = ler.nextInt();
