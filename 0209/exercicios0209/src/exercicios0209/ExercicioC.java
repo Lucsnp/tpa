@@ -5,22 +5,22 @@ public class ExercicioC {
 		
 		Scanner ler = new Scanner(System.in);
 		
-		int n, i;
+		int f, n, i;
 		
 		System.out.println("Digite o número que se deseja saber o fatorial:");
 			n = ler.nextInt();
 			ler.next();
-			
+	f = n;		
 	i = n - 1 ;
 	
 		while(i > 1){
 		
 		n = n*i;	
 			
-		i = i--;
+		i--;
 
 } 
-		System.out.println(n + "! tem como resultado: "+ n );
+		System.out.println(f + "! tem como resultado: "+ n );
 		
 
 		ler.close();
