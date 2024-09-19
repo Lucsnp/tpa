@@ -2,20 +2,15 @@ package exerciciosRepeticao;
 import java.util.Scanner;
 public class Exercicio2 {
 	public static void main(String[] args) {
-		
 
 	Scanner ler = new Scanner(System.in);
 	
 				double altura, pesoIdeal = 0;
 				String sexo, resp;
-			
-			
-		
-				
 	do {			
 			System.out.println("Digite F se o sexo for feminino ou M se for masculino:");
 				sexo = ler.next();
-			System.out.println("digite sua altura:");
+			System.out.println("Digite sua altura:");
 				altura = ler.nextDouble();
 	
 		if(sexo.equalsIgnoreCase("F") ) {
@@ -31,7 +26,6 @@ public class Exercicio2 {
 				resp = ler.next();
 }
 	while(resp.equalsIgnoreCase("S") );			
-
 	
 	ler.close();
 }
