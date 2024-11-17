@@ -4,7 +4,7 @@ public class ExercicioF {
 	public static void main(String[] args) {
 		
 		Scanner ler = new Scanner(System.in);
-			int n, div, resto;
+			int n, div, resto = 0;
 		
 		System.out.println("Digite o número que deseja-se saber se é primo:");
 			n = ler.nextInt();
